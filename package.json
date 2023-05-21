@@ -1,0 +1,27 @@
+{
+  "name": "311551136-bdaf-lab7",
+  "version": "1.0.0",
+  "description": "311551136-bdaf-lab7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry861010/311551136-bdaf-lab7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry861010/311551136-bdaf-lab7/issues"
+  },
+  "homepage": "https://github.com/henry861010/311551136-bdaf-lab7#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
