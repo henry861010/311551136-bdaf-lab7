@@ -67,7 +67,7 @@ describe("Compound Simulation", function () {
   
   	//***Bob performs some setup … (think about it and try to figure out yourself!)
   	totalBalance = await USDCContractGod.balanceOf(compoundAddress);
-  	await network.provider.send("hardhat_setBalance", [ bobAddress, "0x100000000000000000000000000000000000000000000000000000000000000000000000000000000", ]); //give bob enough ethers to buy USDC
+  	await network.provider.send("hardhat_setBalance", [ bobAddress, "0x100000000000000000000000000000000000000000000000000000000000000000", ]); //give bob enough ethers to buy USDC
   	await WETHContractBob.deposit();  //exchange the ethers to WETH
   	const amountToSave = await WETHContractBob.balanceOf(bobAddress);
   	await WETHContractBob.approve(compoundAddress, amountToSave);
