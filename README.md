@@ -15,7 +15,7 @@ going to the folder of the program and running the following instructions in the
 * 3. make sure the version of node.js up to v16.0.0
 ## 2. run program  
 * 1. begin the mainnet fork on block number 17228670: `npx hardhat node`
-* 2. run: `npx hardhat test`  
+* 2. run: `npx hardhat test test.js`  
 
 ## 3. reference
 https://medium.com/coinmonks/impersonating-accounts-with-hardhat-21212c94dcec
